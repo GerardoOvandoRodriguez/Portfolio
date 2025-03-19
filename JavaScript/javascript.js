@@ -50,4 +50,41 @@ cardArray.forEach(e =>{
 });
 
 //Words animation
+const words = document.querySelector('.NameAnimation');
+console.log(words.textContent.split("", words.textContent.length));
+
+const nameAnimation = words.textContent;
+
+
+
+console.log(nameAnimation.length);
+
+const wordsArray = words.textContent.split("",words.textContent.length);
+const wordsArray2 = [words.textContent.split("",words.textContent.length)]
+
+console.log(wordsArray2)
+
+for(let i=0;i < nameAnimation.length;i++){
+    
+}
+
+
+function animation(){
+    
+    wordsArray.pop();
+    words.textContent = wordsArray;
+}
+
+
+
+setInterval(animation,150);
+
+
+
+
+
+
+
+
+
 
