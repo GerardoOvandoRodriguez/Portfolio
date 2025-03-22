@@ -3,13 +3,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    margin: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
     background-color: black;
-    color: white;
+    color: #01F39E;
     text-align: center;
 }
+.Name{
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
 .Title{
-    font-size: 1.5rem;
+    position: relative;
+    height: 490px;
+    margin-bottom: 10px;
+}
+.Sub{
+    font-size: 2.8rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+.NameAnimation{
+    font-size: 5.5rem;
+    margin-bottom: 10px;
 }
 p{
     color: rgb(168, 168, 168)
@@ -21,11 +39,13 @@ li{
     margin-right: auto;
     width: 20%;
     height: 100%;
+    font-size: 30px;
+    
 }
 .NavBar{
     background-color: rgb(0, 0, 0);   
     margin: 0px;
-    height: 20px;
+    height: 40px;
     position: fixed;
     width: 100%;
     top: 0px;
@@ -45,9 +65,10 @@ li a{
 }
 ul{
     margin-top: 0px;
-    height: 20px;
+    height: 40px;
     margin: 0px;
     padding-left: 0px;
+    
 }
 .Container1{
     border: 1px solid red;
@@ -59,19 +80,16 @@ ul{
     font-size: 1em;
     text-align: start;
     font-size: 3vw;
+    
 }
-.Sub{
-    font-size: 25px;
-    margin-left: 5%;
-    margin-right: 5%;
-     
-}
+
 h2{
     text-align: start;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 h3{
     text-align: start;
+    font-size: 1.5rem;
 }
 
 /* Cards */
@@ -82,13 +100,14 @@ h3{
     position: relative;
 }
 .Card{
-    background-color: red;
+    background: linear-gradient(to right,lime,cyan);
     border: 1px solid white;
     position: absolute;
     top: 60px;
     border-radius: 15px;
     height: 350px;
     width: 30%;
+    margin-top: 10px;
 }
 .Card1{
     
@@ -98,4 +117,60 @@ h3{
 }
 .Card3{
     right: 0px;
+}
+/* Formulary */
+.Formulary{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+fieldset{
+    height: 580px;
+    position: absolute;
+    width: 100%;
+    border: 3px solid #01F39E;
+    border-radius: 5px;
+}
+label{
+    font-size: 2rem;
+    display: block;
+    text-align: start;
+}
+input{
+    display: block;
+    width: 60%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+form{
+    position: absolute;
+    width: 100%;
+}
+.Button{
+    position:absolute;
+    display: inline;
+    bottom: 10px;
+    right: 90px;
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+legend{
+    text-align: start;
+
+}
+/* SKILLS */
+#Skills{
+    height: 550px;
+    background-color: rgba(119, 119, 119, 0.842);
+}
+.Logo{
+    margin-right: 85%;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 60px;
 }
